@@ -1,3 +1,4 @@
 # Task_2_Art-rs_Knope
 
-atverot mājaslapu, uzspiežat uz index.html faila
+lai atvertu mājaslapu, uzspiežat uz index.html failu
+vai uzspiežot uz šīs majaslapas https://aknope.github.io/Task_2_Art-rs_Knope/

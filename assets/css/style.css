@@ -284,6 +284,10 @@ li
     background-color: rgba(196, 196, 196, 0.4);
     border-radius: 6px;
 }
+.form-control:focus
+{
+    background-color: rgba(196, 196, 196, 0.4);
+}
 .box2
 {
     width: 620px;

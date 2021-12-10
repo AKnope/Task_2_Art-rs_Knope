@@ -25,6 +25,7 @@ header{
     width: 159px;
     height: 95px;
 }
+
 nav{
     padding-top: 50px;
     justify-content: flex-end;
@@ -68,6 +69,17 @@ li
     font-size: 18px;
     line-height: 22px;
     margin: auto;
+}
+@media (max-width: 425px)
+{
+    .text-font{
+        font-size: 11px;
+        width: 60%;
+    }
+    .logo{
+        width: 70px;
+        height: 35px;
+    }
 }
 .top-image
 {

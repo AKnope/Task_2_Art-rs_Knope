@@ -390,43 +390,43 @@ li
     padding-left: 0 !important;
 }
 
-#goldImg
+#goldimage
 {
     width: 182px;
     height: 182px;
     margin-left: 8px;
 }
 
-#footerLink > li > div > a
+#link > li > div > a
 {
     text-decoration: none;
     color: #fff;
     font-size: 18px;
 }
-#footerLink2
+#link2
 {
     position: absolute;
     bottom: 8px;
     right: 8px;
 }
 
-#footerRights > div, #footerRights > div > a
+#right > div, #right > div > a
 {
     text-decoration: none;
     color: #fff;
     font-size: 14px;
 }
-#footerRights > div.text-end 
+#right > div.text-end 
 {
     position:relative;
 }
-#footerIcons
+#Icon
 {
     padding-top: 52px;
     padding-left: 20px;
 }
 
-#footerIcons > p > i
+#Icon > p > i
 {
     height: 36px;
     margin-left: 29px;

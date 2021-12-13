@@ -11,6 +11,7 @@
   {
     border: 0px solid white;
     background-color: white;
+    
   }
 .gone
 {
@@ -33,6 +34,8 @@ nav{
     font-size: 18px;
     color: #060606;
     width: 100%; 
+    text-align: center;
+    position: relative;
 }
 .nav-link:hover
 {
@@ -445,4 +448,23 @@ li
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
+}
+#navbar-menu{
+    display: none;
+}
+@media (max-width:991px){
+    #navbar-menu2{
+        display: none;
+    }
+    #navbar-menu{
+        display: block;
+    }
+    .a{
+        transition: 100ms;
+    }
+    .a:hover{
+        text-decoration: underline;
+        text-decoration-color: #FFA800;
+        color: black;
+    }
 }

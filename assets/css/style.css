@@ -50,7 +50,7 @@ li
 }
 .image
 {
-    width: 100% ;
+    width: 100%;
     height: auto;
 }
 .text
@@ -439,7 +439,7 @@ li
     }
 }
 .form{
-    margin-top:60px ;
+    margin-top: 60px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;

@@ -51,6 +51,7 @@ li
 .image
 {
     width: 100% ;
+    height: auto;
 }
 .text
 {
@@ -436,4 +437,12 @@ li
     .test{
         display: none;
     }
+}
+.form{
+    margin-top:60px ;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
 }

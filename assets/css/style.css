@@ -96,7 +96,6 @@ li
     width: 100%;
     display: flex;
     flex-direction: row;
-    
 }
 .image-column
 {
@@ -460,7 +459,11 @@ li
     .a:hover{
         text-decoration: underline;
         text-decoration-color: #FFA800;
+        text-decoration-thickness: 2px;
         color: black;
+    }
+    .text-spacing{
+        word-spacing: 50px;
     }
 }
 .footer1{

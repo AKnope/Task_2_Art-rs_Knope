@@ -533,12 +533,14 @@ li
 .footer1{
     background-image: url("../img/footer1.png");
     width: 100%;
-    z-index: 1;
+    height: 481px;
+    margin-bottom: -40px;
 }
 .footer2{
-    background-color: #2F4858;
+    background-image: url("../img/footer2.png");
     width: 100%;
     color: white;
+
 }
 .idea-box{
     padding-top: 82px;
@@ -554,14 +556,14 @@ li
 .idea-box2{
     padding-top: 60px;
     font-family: Montserrat;
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 0em;
     text-align: center;
     width: 606px;
-    height: 112px;
+    height: 202px;
     margin: auto;
 }
 .boxs{
@@ -571,14 +573,17 @@ li
 }
 #snow{
     z-index: -1;
+    overflow: hidden;
+    position: relative;
+    height: 702px;
 }
 @media (max-width:320px){
 
     .idea-box2{
-        width: 280px;
-        height: 124px;
+        width: 606px;
+        height: 112px;
         font-family: Montserrat;
-        font-size: 12px;
+        font-size: 18px;
         font-style: normal;
         font-weight: 400;
         line-height: 15px;
@@ -586,14 +591,14 @@ li
         text-align: center;
     }
     .idea-box{
-    font-family: Oswald;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 53px;
-    letter-spacing: 0em;
-    text-align: center;
-}
+        font-family: Oswald;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 53px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
 }
 .centered {
     position: absolute;
@@ -614,7 +619,6 @@ li
     position: absolute;
     left: 0;
     top: 0;
-    
   }
   #text {
     z-index: 100;
@@ -635,12 +639,159 @@ li
     left: 0;
     margin-top: -170px;
   }
+  @media (max-width:950px){
+    #text{
+      width: 695px;
+      height: 108px;
+      font-size: 22px;
+    }
+}
   @media (max-width:786px){
       #text{
         width: 595px;
         height: 138px;
+        font-size: 20px;
       }
   }
+  @media (max-width:770px){
+    #text{
+        width: 480px;
+        height: 168px;
+      font-size: 18px;
+    }
+}
+    @media (max-width:705px){
+        #text{
+            width: 400px;
+            height: 168px;
+          font-size: 18px;
+        }
+        .idea-box2{
+            font-size: 16px;
+            width: 406px;
+            height: 112px;
 
+        }
+}
+    @media (max-width:480px){
+        #text{
+            width: 280px;
+            height: 168px;
+            font-size: 18px;
+            margin-top: -245px;
+        }
+        .idea-box2{
+            font-size: 12px;
+            width: 280px;
+            height: 124px;
+            
+        }
+    }
+    .comments{
+        padding: 120px 0;
+        margin:auto;
+        width: 602px;
+        height: 420px;
+        position: relative;
+    }
+    .username{
+        width: 388px;
+        height: 29px;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        display: flex;
+        align-items: center;
+        color: #2F4858;
+    }
+    .occupation{
+        width: 500px;
+        height: 25px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        color: #2F4858;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .content{
+        width: 602px;
+        height: 119px;
+        font-family: Montserrat;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 29px;
+        display: flex;
+        align-items: center;
+        color: #2F4858;
+    }
+    @media (max-width:786px)
+    {
+        .username{
+            width: 388px;
+            height: 29px;
+        }
+        .occupation{
+            margin-top: 5px;
+            margin-bottom: 9px;
+            width: 500px;
+            height: 25px;
+        }
+        .content{
+            width: 602px;
+            height: 119px;
+        }
+    }
+    @media (max-width:680px){      
 
+        .comments{
+            width: 502px;
+        }
+        .username{
+            font-size: 21px;
+            width: 288px;
+        }
+        .occupation{
+            font-size: 15px;
+            width: 400px;
+        }
+        .content{
+            font-size: 21px;
+            width: 502px;
+        }
+    }
+    @media (max-width:600px){      
+        .comments{
+            width: 302px;
+            height: 420px;
+        }
+        .username{
+            font-size: 18px;
+            line-height: 27px;
+            width: 280px;
+            height: 29px;
+        }
+        .occupation{
+            width: 280px;
+            height: 39px;
+            font-size: 14px;
+            line-height: 17px;
 
+        }
+        .content{
+            width: 279px;
+            height: 66px;
+            font-size: 12px;
+            line-height: 15px;
+        }
+    }
+    .space{
+        padding-right: 47px;
+    }

@@ -337,7 +337,10 @@ li
     .field{
         width: auto;
         float: none;
-    }    
+    }
+    .field{
+        margin-left: 35px;
+    }   
 }
 .row
 {
@@ -471,7 +474,17 @@ li
     bottom: 8px;
     right: 8px;
 }
-
+.px-3 {
+    padding-right: 0rem!important;
+    padding-left: 0rem!important;
+}
+.p-4 {
+    padding: 1.5rem 0rem 1.5rem 0rem!important;
+}
+.texts{
+    background-color: #2F4858;
+    padding-right: 10px;
+}
 #right > div, #right > div > a
 {
     text-decoration: none;
@@ -498,6 +511,9 @@ li
     .test{
         display: none;
     }
+    .col-md-3{
+        width: 100%;
+    }
 }
 .form{
     margin-top: 60px;
@@ -506,6 +522,7 @@ li
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
+    margin-bottom: 50px;
 }
 #navbar-menu{
     display: none;
@@ -536,12 +553,17 @@ li
     height: 481px;
     margin-bottom: -40px;
 }
+
 .footer2{
     background-image: url("../img/footer2.png");
     width: 100%;
     color: white;
 
+    z-index: 100;
+
 }
+
+
 .idea-box{
     padding-top: 82px;
     font-family: Oswald;
@@ -571,12 +593,15 @@ li
     background: linear-gradient(0deg, rgba(47, 72, 88, 0.8) 18.63%, rgba(47, 72, 88, 0) 49.21%);
     z-index: -1;
 }
+
 #snow{
+    width: 1920px;
     z-index: -1;
     overflow: hidden;
     position: relative;
-    height: 702px;
+    height: auto; 
 }
+
 @media (max-width:320px){
 
     .idea-box2{

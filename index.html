@@ -18,7 +18,9 @@
 	src="https://code.jquery.com/jquery-3.6.0.js"
 	integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
 	crossorigin="anonymous">
-	</script>   
+	</script>
+       <script src="assets/js/theme.js">
+      </script>
   <body>
     <header>
       <img src="assets/img/BlackLogo3.jpg" class="logo">
@@ -78,10 +80,8 @@
     <p>SparkleHeart ir biedrība, kas radīta, lai palīdzētu cilvēkiem piepildīt pat pārdrošākos sapņus. Šeit satiekas sapņotāji un viņu atbalstītāji - uzņēmumi, kas sniedz palīdzīgu roku, lai kopā pasauli padarītu par labāku vietu mums visiem.Mēs esam gatavi palīdzēt Tev piepildīt sapni. Kā pamats iedvesmai - tiek radīti arī 99 stāsti par Latvijas sievietēm.</p>
   </div>
 </div>
-
-<img src="assets/img/ripped67.svg" class="top-image">
-
-<div class="collage1">
+<div class="collage-computer">
+  <img src="assets/img/ripped67.svg" class="top-image">
   <div class="col-sm-12 images">
       <img src="assets/img/Zanda_1.jpg" id="image-width">
       <img src="assets/img/Sibilla_4.jpg" id="image-width">
@@ -91,24 +91,27 @@
       </div>
         <img src="assets/img/Anda_2.jpg" id="image-width">
   </div>
-</div>
-
-<div class="collage">
-  <div class=" col-sm-12 images">
-    
-    <div class="image-column" id="image-width">
-      <img src="assets/img/Brinuma_meita_15.jpg">
-      <img src="assets/img/Alina_1.jpg">
-    </div>
-  <div class="col-sm-12 images">
-    </div>
-      <img src="assets/img/Anda_2.jpg" id="image-width">
-      <img src="assets/img/Zanda_1.jpg" id="image-width2">
-    <img src="assets/img/Sibilla_4.jpg" id="image-width2">
-</div>
-</div>
-
 <img src="assets/img/ripped68.svg" class="bottom-image">
+</div>
+
+
+
+<div class="photo-con collage-phone">
+  <img src="assets/img/ripped67.svg" class="top-image2">
+  <div class="row1">
+    <div class="image-column2 double">
+      <img src="assets/img/Brinuma_meita_15.jpg" height="89px">
+      <img src="assets/img/Alina_1.jpg" height="85px">
+    </div>
+    <img src="assets/img/Anda_2.jpg" class="anda" height="174px">
+  </div>
+  <div class="row2">
+    <img src="assets/img/Zanda_1.jpg"  class="zanda" height="183px">
+    <img src="assets/img/Sibilla_4.jpg" class="sibilla" height="183px">
+  </div>
+  <img src="assets/img/ripped68.svg" class="bottom-image2">
+
+</div>
 
 <div class="container dream">
   <div class="row row-cols-2">
@@ -138,7 +141,7 @@
     </div>
     <div class="box2">
       <input type="text" class="form-control" placeholder="Telefons*">
-      <input type="text" class="form-control height" placeholder="Jautājums, vai komentārs*">
+      <input type="text" class="form-control height placehold" placeholder="Jautājums, vai komentārs*">
       <div class="field">
         * obligāti aizpildāmie lauki
       </div>
@@ -183,7 +186,7 @@
 <footer class="footer2 footer2color">
   <div class="container-fluid pt-5 px-3" >  
       <div class="row p-4">
-          <div class="col-md-3 justify-content-center">
+          <div class="foor col-md-3 justify-content-center">
               <img src="assets/img/goldlogo.png" id="goldimage">
           </div>
           <div class="col-md-3">
@@ -202,7 +205,7 @@
               </ul>
           </div>
 
-          <div class="col-md-3 footerLeft test">
+          <div class="col-md-3 footerLeft test" id="toggle-display">
               <h5>Biedrība SparkleHeart</h5>
               <div>
                   <p>Reģistrācijas nr. 40008293119</p>
@@ -217,9 +220,11 @@
                   <p>juris.gogulis@sparkleheart.org</p>
                   <br> <p>+37126890034</p>
                   <br> <p>Biķernieku iela 24a - 5, LV-1006</p>
-                  <br> <div id="Icon">
+                  <br> <p id="toggle" onclick="toggle()">Skatīt rekvezītus</p>
+
+                  <div id="Icon">
                           <p>
-                            <img src="assets/img/facebook.png" width="18px" height="36px">
+                            <img src="assets/img/facebook.png" width="18px" height="36px" class="fb-margin">
                             <img src="assets/img/instagram.png" width="36px" height="36px">
                           </p>
                       </div>

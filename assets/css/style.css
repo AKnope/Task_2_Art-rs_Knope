@@ -770,7 +770,7 @@ p {
         background-image: url("../img/footer2_tablet.png");
     }
 }
-@media(max-width:520px){
+@media(max-width:550px){
     #atbal1
     {
         margin-left: 22px;

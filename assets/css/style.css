@@ -1,3 +1,4 @@
+
 @font-face {
     font-family:'Montserrat';
     src: url('../fonts/Montserrat-Medium.ttf') format('truetype');
@@ -140,6 +141,9 @@ li
     width: 100%;
     z-index: 1;
     margin-top: -2px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 .top-image2
 {
@@ -147,6 +151,9 @@ li
     width: 100%;
     z-index: 1;
     margin-top: -1px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 .collage-computer{
 display: block;
@@ -233,15 +240,24 @@ display: none;
     width: 100%;
     display: flex;
     flex-direction: column;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 .image-column2
 {
     display: flex;
     flex-direction: column;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 #image-width
 {
     width: 25%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 .m-4{
     margin: 1.5rem 0 0 1.5rem!important;
@@ -269,6 +285,9 @@ display: none;
     width: 100%;
     z-index: 3;
     margin-top: -3%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 .bottom-image2
 {
@@ -276,6 +295,9 @@ display: none;
     width: 100%;
     z-index: 3;
     margin-top: -4%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 
 }
 .dream

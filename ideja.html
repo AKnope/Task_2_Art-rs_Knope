@@ -14,13 +14,13 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
         <link rel="icon" href="assets/img/Intersect.png">
-	<script
-	src="https://code.jquery.com/jquery-3.6.0.js"
-	integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-	crossorigin="anonymous">
-	</script>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 <script src="assets/js/theme.js">
 </script>
+
+</head>
     <body>
       <div class="m-4">
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -40,7 +40,7 @@
             
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link a b" href="ideja.html">Ideja</a>
+                              <a class="nav-link a b underline" href="ideja.html">Ideja</a>
                           </li>
                           <li class="nav-item">
                               <a class="nav-link a c" href="#">Piesaki Sapni</a>
@@ -89,21 +89,40 @@
     </div>
 <img src="assets/img/ripped68.svg" class="bottom-image">
     
-  <div class="comments">
-    <div class="username">
-       Ken Ludden
-    </div>
-    <div class="occupation">
-       Director, Margot Fonteyn Academy of Ballet
-    </div>
-    <div class="content">
-      For it is Juris work that is the light the human race needs so badly these days. His vision is inspired and talent is beyond measure.
-    </div>
-      <div class="arrow">
-        <img src="assets/img/arrow2.png" class="space">
-        <img src="assets/img/arrow.png">
+      <div id="carouselExampleControls" class="carousel slide comments" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+                <div class="username">
+                  Ken Ludden
+              </div>
+              <div class="occupation">
+                  Director, Margot Fonteyn Academy of Ballet
+              </div>
+              <div class="content">
+                For it is Juris work that is the light the human race needs so badly these days. His vision is inspired and talent is beyond measure.
+              </div>          
+          </div>
+          <div class="carousel-item">
+                <div class="username">
+                    lorem ipsum
+              </div>
+              <div class="occupation">
+                lorem ipsum
+              </div>
+              <div class="content">
+                lorem ipsum
+              </div>          
+          </div>
+        </div>
+        <div class="arrow">
+          <a class="carousell" href="#carouselExampleControls" role="button" data-slide="prev">
+            <img src="assets/img/arrow2.png" class="space">          
+          </a>
+          <a class="carousell" href="#carouselExampleControls" role="button" data-slide="next">
+            <img src="assets/img/arrow.png">
+          </a>
+        </div>
       </div>
-    </div>
 
     <footer class="footer2 footer2color">
       <div class="container-fluid pt-5 px-3" >  

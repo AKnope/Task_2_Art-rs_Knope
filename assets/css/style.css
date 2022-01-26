@@ -761,6 +761,7 @@ p {
         background-image: url("../img/footer2_tablet.png");
     }
 }
+
 @media(max-width:550px){
     #atbal1
     {
@@ -777,7 +778,7 @@ p {
     }
     #atbal3
     {
-        margin-right: 57px;
+        margin-right: 22px;
         margin-top: 18px;
         margin-left:21px;
         width: 131px;

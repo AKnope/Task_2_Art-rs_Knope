@@ -15,3 +15,10 @@ function toggle() {
       toggledisplay.style.display = 'block';
     }
 }
+
+
+
+function submit() {
+  document.getElementById("submit-display").addEventListener("click", submit);
+  document.getElementById("submit-display").innerHTML = "<div><div class='submit titles'>Paldies, ka sapņo!</div><div class='submit'>Ja Tavs sapnis tiks izvēlēts, mēs ar Tevi sazināsimies.</div></div>";
+}

@@ -138,6 +138,7 @@
       <div class="box2">
         <input type="text" class="form-control" placeholder="Telefons*">
         <input type="text" class="form-control height placehold" placeholder="Jautājums, vai komentārs*">
+        <toggle id="submit-display">
           <div class="field">
             * obligāti aizpildāmie lauki
           </div>
@@ -150,9 +151,15 @@
         </div>
       </div>  
     </div>
-    <button class="custom-button form">Sūtīt</button>
+    <button class="custom-button form" id="button-displ" onclick="submit()">Sūtīt</button>
+  </toggle>
   </div>
+
+
+
+
     <!-- Main footer -->
+
     <footer class="footer2 footer2color">
         <div class="container-fluid pt-5 px-3" >  
           <div class="row p-4">

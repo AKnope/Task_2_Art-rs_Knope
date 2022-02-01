@@ -1618,3 +1618,56 @@ div.sapnu-box-text.mountain{
         line-height: 22px;
     } 
 }
+.location-con{
+    width: 700px;
+    margin: 90px auto 60px auto;
+    height:100px;
+    display: flex;
+    flex-direction: row;
+}
+.location-box{
+    width: 288px;
+}
+.dropdown-text{
+    width: 282px;
+    height: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #FFA800;
+}
+.spac{
+    margin-right: 20px;
+}
+.dropdowns{
+    width: 288px;
+    height: 43px;
+    background: rgba(196, 196, 196, 0.4);
+    border-radius: 6px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #2F4858;
+    padding: 12px 60px 10px 15px;
+
+}
+.dropdowns:focus{
+    border-radius: 6px 6px 0 0;
+    border-bottom: 0px;
+}
+.borders{
+    height: 9px;
+    overflow: hidden;
+    border-top: 1px solid #e9ecef;
+    vertical-align: middle;
+    overflow: hidden;
+}

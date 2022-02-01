@@ -1264,7 +1264,7 @@ p{
     width: 170px;
     height: 198px;
 }
-@media(max-width:956px)
+@media(max-width:768px)
 {
     .dreaming{
         width: 100%;

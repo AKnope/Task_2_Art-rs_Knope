@@ -114,6 +114,12 @@ li{
     .text-spacing{
         word-spacing: 50px;
     }
+    li.nav-item{
+        padding-left: 0;
+    }
+    li.nav-item-language.dropdown.navbar-toggle{
+        padding-left: 0;
+    }
 }
 /* Mainpage */
 /* Video image */
@@ -1619,9 +1625,9 @@ div.sapnu-box-text.mountain{
     } 
 }
 .location-con{
-    width: 700px;
+    width: 596px;
     margin: 90px auto 60px auto;
-    height:100px;
+    height:auto;
     display: flex;
     flex-direction: row;
 }
@@ -1650,15 +1656,14 @@ div.sapnu-box-text.mountain{
     border-radius: 6px;
     font-family: Montserrat;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 18px;
     line-height: 22px;
     display: flex;
     align-items: center;
     letter-spacing: -0.015em;
     color: #2F4858;
-    padding: 12px 60px 10px 15px;
-
+    padding: 9px 60px 10px 15px;
 }
 .dropdowns:focus{
     border-radius: 6px 6px 0 0;
@@ -1671,3 +1676,274 @@ div.sapnu-box-text.mountain{
     vertical-align: middle;
     overflow: hidden;
 }
+@media (max-width:625px){
+    .location-con{
+        flex-direction: column;
+        height: 254px;
+        width: 290px;
+        margin: 80px auto 80px auto;
+    }
+    .location-box{
+        margin-top: 40px;
+    }
+    .dropdowns{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .dropdown-text{
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+#riga{
+    display: block;
+}
+#jelgava{
+    display: block;
+}
+#ogre{
+    display: block;
+}
+#food{
+    display: block;
+}
+select option { 
+    line-height: 20px;
+}
+.dropdowns{
+    font-size: 18px;
+    line-height: 22px;
+}
+.boxs2{
+    width: 100%; 
+    z-index: -1; 
+    margin-bottom: -44px;
+}
+#map{
+    width: 100%;
+    height: auto;
+    
+}
+@media (max-width:1366px){
+    #map{
+        width: auto;
+        z-index: -1;
+        position: relative;
+        height: 648px; 
+        overflow: hidden;
+    }
+}
+@media (min-width:1920px){
+    #map{    
+        height: 1215px;
+        }
+}
+#zoom{
+    margin: auto 67px 170px auto;
+}
+#container2{
+    position: relative;
+    z-index: -100;  
+    margin: auto;
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+    overflow: hidden;
+}    
+#zoom{
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    vertical-align:bottom;
+    color: #FFFFFF;
+    right: 0;
+
+    margin-top: -209px;
+}
+#pad{
+    margin-bottom: 22px;
+}
+@media (max-width:1024px){
+    #zoom{
+        display: none;
+    }
+}
+
+
+#wrapper {
+      height:848px;
+      width:100%;
+      overflow: hidden;
+  }
+  #inner {
+    background-image: url('../img/map.png');
+background-size: 1366px 848px;
+    height: 848px;
+
+  }
+
+  .inner:hover {
+      cursor: pointer;
+  }
+  @media (max-width:768px){
+    #inner{
+        margin-left: -386px;
+    }
+
+}
+@media (max-width:568px){
+    #inner{
+        margin-left: -467px;
+    }
+}
+.size{
+    width: 21px;
+    height: 33px;
+}
+@media (max-width:425px){
+    .size{
+        width: 19px;
+        height: 29px;
+    }
+}
+.position{
+    position: relative;
+}
+.pin1{
+    top: 444px;
+    left: 482px;
+}
+.pin2{
+    left: 672px;
+    top: 76px;
+}
+.pin3{
+    top: 120px;
+    left: 648px;
+}
+#pin1{
+    display: block; 
+}
+#pin2{
+    display: block;
+}
+#pin3{
+    display: block;
+}
+.select-box{
+    position: absolute;
+    width: 486px;
+    height: 174px;
+    background: rgba(255, 168, 0, 0.5);
+    border-radius: 14px;
+    display: none;
+    top: 368px;
+    left: 530px;
+  }
+  .pin1:hover + .select-box{
+    display: flex;
+    flex-direction: row;
+  }
+  .pin1-pop{
+      width: 120px;
+      height: 60px;
+      margin: 57px 19px 57px 29px;
+  }
+  .popup-con{
+      height: 127px;
+      width: 290px;
+      margin: 22px 27px 25px 0;
+  }
+  .popup-title{
+    width: 290px;
+    height: 37px;
+    margin-bottom: 30px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: right;
+    color: #2F4858;
+  }
+  .popup-info{
+    width: 290px;
+    height: 60px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #2F4858;
+  }
+@media (min-width:1366px){
+    #wrapper {
+        height:848px;
+    }
+    #inner{
+        background-size: 1920px 848px;
+        height: 848px
+    }
+    .pin1{
+        left: 675px;
+    } 
+    .pin2{
+        left: 953px;
+    }
+    .pin3{
+        left: 918px;   
+    }
+    .select-box{
+        left: 724px;
+    }
+  }
+@media (max-width:425px){
+    .select-box{
+        width: 280px;
+        height: 200px;
+        display: none;
+        flex-direction: none;
+    }
+    .pin1-pop{
+        width: 112px;
+        height: 55px;
+        margin: 15px 15px 0 153px;
+        text-align: right;
+    }
+    .popup-con{
+        height: 100px;
+        width: 100%;
+        margin: 0 15px 15px 60px;
+    }
+    .popup-title{
+        width: 204px;
+        height: 24px;      
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        align-items: center;
+        text-align: right;
+        color: #2F4858;
+        margin: 15px 0 20px 0;
+    }
+    .popup-info{
+        width: 205px;
+        height: 56px;
+        font-size: 14px;
+        line-height: 17px;
+        align-items: center;
+        text-align: right;
+        color: #2F4858;
+
+    }
+    .pin1:hover + .select-box{
+        display: block;
+        flex-direction: none;
+      }
+}  
+

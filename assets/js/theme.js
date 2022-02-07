@@ -28,7 +28,8 @@ function option1(){
   var riga =document.getElementById('riga');
   var jelgava =document.getElementById('jelgava');
   var ogre =document.getElementById('ogre');
-
+  var purch =document.getElementById('purch');
+  var kurts =document.getElementById('kurts');
   if(cities.value == "riga") {
       riga.style.display = 'none';
   }
@@ -64,16 +65,22 @@ if(cities.value == "riga" && type.value == "food"){
   pin1.style.display = "none";
   pin2.style.top = "109px";
   pin3.style.top = "153px";
+  purch.style.display="block";
+  kurts.style.display="block";
 }
 else if((cities.value == "riga" && type.value == "null")){
   pin2.style.top = "76px";
   pin3.style.top = "120px";
+  purch.style.display="none";
+  kurts.style.display="none";
 }
 
 else{
   pin1.style.display = "block";
   pin2.style.top = "76px";
   pin3.style.top = "120px";
+  purch.style.display="none";
+  kurts.style.display="none";
 }
 
 }
@@ -85,9 +92,6 @@ $(function () {
   $("#inner").draggable({
       axis: "x,y",
       restriction: true,
-        endOnly: true,
-        revert:true,
+        endOnly: true
   });
-
- 
 });

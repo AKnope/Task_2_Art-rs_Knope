@@ -1364,7 +1364,6 @@ div.sapnu-box.flex {
     height: 115px;
     margin: 0 auto 110px auto;
 }
-
 .sapnu-box-text{
     color: #2F4858;
     width: 500px;
@@ -1842,7 +1841,35 @@ background-size: 1366px 848px;
     top: 368px;
     left: 530px;
   }
+  .select-box2{
+    position: absolute;
+    width: 486px;
+    height: 174px;
+    background: rgba(255, 168, 0, 0.5);
+    border-radius: 14px;
+    display: none;
+    top: 33px;
+    left: 1005px;
+  }
+  .select-box3{
+    position: absolute;
+    width: 486px;
+    height: 174px;
+    background: rgba(255, 168, 0, 0.5);
+    border-radius: 14px;
+    display: none;
+    top: 111px;
+    left: 970px;
+  }
   .pin1:hover + .select-box{
+    display: flex;
+    flex-direction: row;
+  }
+  .pin2:hover + .select-box2{
+    display: flex;
+    flex-direction: row;
+  }
+  .pin3:hover + .select-box3{
     display: flex;
     flex-direction: row;
   }
@@ -1902,6 +1929,14 @@ background-size: 1366px 848px;
         left: 724px;
     }
   }
+  @media (max-width:1365px){
+    .select-box2{
+        left: 724px;
+    }
+    .select-box3{
+        left: 700px;
+    }
+  }
 @media (max-width:425px){
     .select-box{
         width: 280px;
@@ -1946,4 +1981,86 @@ background-size: 1366px 848px;
         flex-direction: none;
       }
 }  
-
+.display-conn{
+    display: block;
+    width: 823px;
+    height: 230px;
+    margin: 120px auto 60px auto;
+}
+.purch{
+    width: 823px;
+    height: 120px;
+    margin-bottom:33px;
+}
+.kurts{
+    width: 823px;
+    height: 98px;
+}
+.occupation-name{
+    width: 288px;
+    height: 42px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    align-items: center;
+    color: #2F4858;
+    display: flex;
+    margin: -72px auto 0 217px;
+}
+.occupation-adress{
+    width: 288px;
+    height: 60px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    text-align: right;
+    color: #2F4858;
+    margin: -40px 0 0 535px;  
+}
+@media(max-width:768px){
+    .display-conn{
+        display: none;
+    }
+}
+#purch{
+    display: none;
+}
+#kurts{
+    display: none;
+}
+@media(max-width:1024px){
+    .display-conn{
+        width: 608px;
+        height: 230px;
+        margin: 120px auto 60px auto;
+    }
+    .occupation-name{
+        width: 225px;
+        height: 60px;
+        margin-left: 128px;
+        margin-top: -73px;
+    } 
+    .occupation-adress{
+        width: 225px;
+        height: 60px;
+        margin: -40px 0 0 383px; 
+    }
+    .purch{
+        width: 608px;
+        height: 120px;
+        margin-bottom:33px;
+    }
+    .kurts{
+        width: 608px;
+        height: 98px;
+    }
+    #kurt, #purc{
+        width: 98px;
+        height: 98px;
+    }
+}

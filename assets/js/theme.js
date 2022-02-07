@@ -84,8 +84,9 @@ $(function () {
   
   $("#inner").draggable({
       axis: "x,y",
-      restriction: 'parent',
-        endOnly: true
+      restriction: true,
+        endOnly: true,
+        revert:true,
   });
 
  

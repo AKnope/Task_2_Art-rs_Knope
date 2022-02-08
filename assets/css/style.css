@@ -2351,3 +2351,12 @@ background-size: 1366px 848px;
         margin-bottom: 25px;
     }
 }
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,1);
+     border-color: rgba(0,0,0,0);
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}

@@ -84,7 +84,23 @@ else{
 }
 
 }
+function show(){
+  var tag = document.getElementById('tag');
+  var more = document.getElementById('more');
+  var less = document.getElementById('less');
+  var displayshow = tag.style.display;
 
+  if(displayshow == "none"){
+    tag.style.display = "block";
+    more.style.display= "none";
+    less.style.display= "block";
+  }
+  else{
+    tag.style.display = "none";
+    more.style.display= "block";
+    less.style.display= "none";
+  }
+}
 
 $(function () {
   "use strict";

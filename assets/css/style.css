@@ -200,6 +200,12 @@ li{
     .alina{
         height:50%;
     }
+    .brin-2{
+        height: 50%;
+    }
+    .arta{
+        height: 50%;
+    }
 
     .double2{
         height: 100%;
@@ -1981,10 +1987,12 @@ background-size: 1366px 848px;
       }
 }  
 .display-conn{
-    display: block;
     width: 823px;
     height: 230px;
-    margin: 120px auto 60px auto;
+    margin: 0 auto 0 auto;
+}
+#conn{
+    display: none;
 }
 .purch{
     width: 823px;
@@ -2237,7 +2245,7 @@ background-size: 1366px 848px;
         display: none;
     }
 }
-@media (max-width:768px){
+@media (max-width:760px){
     .row99_tablet{
         display: none;
     }
@@ -2359,4 +2367,84 @@ background-size: 1366px 848px;
     text-decoration: none;
     outline: 0;
     box-shadow: 0 0 0 0;
+}
+.popup{
+    position:fixed;
+    margin-top: -122px;
+    width: 100%;
+    height: 1500px;
+    background: rgba(47, 72, 88, 0.9);
+    z-index: 100;
+}
+#pop{
+    display: none;
+}
+.popup-close{
+    margin: 94px 20% 0px 80%;
+    height: 23px;
+    width: 23px;
+}
+.brmeita{
+    width: 912px;
+    height: 511px;
+    margin: 25px auto 25px auto;
+}
+.brmeita-img{
+    width: 912px;
+    height: 511px;
+    margin: auto;
+}
+.popup-text{
+    width: 280px;
+    height: 36px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    margin: 36px auto 0 auto;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+@media (max-width:1024px){
+    .brmeita-img{
+        width: 608px;
+        height: 341px;
+    }
+    .brmeita{
+        width: 608px;
+        height: 341px;
+        margin: 15px auto 25px auto;
+    }
+    .popup-close{
+        margin: 305px 7% 0px 93%;
+        height: 20px;
+        width: 20px;
+    }
+}
+@media (max-width:700px){
+    .brmeita-img{
+        width: 408px;
+        height: 241px;
+    }
+    .brmeita{
+        width: 408px;
+        height: 241px;
+    }
+}
+ @media (max-width:425px){
+    .brmeita-img{
+        width: 279px;
+        height: 156px;
+    }
+    .brmeita{
+        width: 279px;
+        height: 156px;
+    }
+    .popup-close{
+        margin: 154px 14% 0px 86%;
+        height: 20px;
+        width: 20px;
+    }
 }

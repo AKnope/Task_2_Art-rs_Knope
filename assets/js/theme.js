@@ -17,8 +17,9 @@ function toggle() {
 }
 
 function submit() {
+
   document.getElementById("submit-display").addEventListener("click", submit);
-  document.getElementById("submit-display").innerHTML = "<div><div class='submit titles'>Paldies, ka sapņo!</div><div class='submit'>Ja Tavs sapnis tiks izvēlēts, mēs ar Tevi sazināsimies.</div></div>";
+  document.getElementById("submit-display").innerHTML = "<div style='margin-bottom:170px;'><div class='submit titles'>Paldies, ka sapņo!</div><div class='submit'>Ja Tavs sapnis tiks izvēlēts, mēs ar Tevi sazināsimies.</div></div>";
 }
 
 
@@ -30,6 +31,7 @@ function option1(){
   var ogre =document.getElementById('ogre');
   var purch =document.getElementById('purch');
   var kurts =document.getElementById('kurts');
+  var conn =document.getElementById('conn');
   if(cities.value == "riga") {
       riga.style.display = 'none';
   }
@@ -67,12 +69,16 @@ if(cities.value == "riga" && type.value == "food"){
   pin3.style.top = "153px";
   purch.style.display="block";
   kurts.style.display="block";
+  conn.style.display="block";
+  conn.style.margin="120px auto 60px auto";
 }
 else if((cities.value == "riga" && type.value == "null")){
   pin2.style.top = "76px";
   pin3.style.top = "120px";
   purch.style.display="none";
   kurts.style.display="none";
+  conn.style.display="none";
+  conn.style.margin="0";
 }
 
 else{
@@ -81,6 +87,8 @@ else{
   pin3.style.top = "120px";
   purch.style.display="none";
   kurts.style.display="none";
+  conn.style.display="none";
+  conn.style.margin="0";
 }
 
 }
@@ -111,3 +119,20 @@ $(function () {
         endOnly: true
   });
 });
+
+
+function popup(){
+  var popup = document.getElementById('pop');
+  if(pop.style.display !== "none"){
+    popup.style.display="block";
+  }
+  else if(pop.style.display == "none"){
+    popup.style.display="block";
+  }
+  else{
+    popup.style.display="none";
+  }
+}
+function popup2(){
+  document.getElementById("pop").style.display= "none";
+}

@@ -2434,4 +2434,8 @@ background-size: 1366px 848px;
         height: 20px;
         width: 20px;
     }
+    .popup-text{
+        font-size: 24px;
+        line-height: 36px;
+    }
 }

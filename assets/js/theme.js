@@ -17,7 +17,7 @@ function toggle() {
 }
 
 function submit() {
-
+  document.getElementById("button-displ").style.display = 'none';
   document.getElementById("submit-display").addEventListener("click", submit);
   document.getElementById("submit-display").innerHTML = "<div style='margin-bottom:170px;'><div class='submit titles'>Paldies, ka sapņo!</div><div class='submit'>Ja Tavs sapnis tiks izvēlēts, mēs ar Tevi sazināsimies.</div></div>";
 }

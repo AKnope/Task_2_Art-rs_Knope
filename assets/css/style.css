@@ -7,7 +7,6 @@
     font-family:'Oswald';
     src: url('../fonts/Oswald-VariableFont_wght.ttf') format('truetype');
 }
-/* Navbar/header related */
 #navbar-menu{
     display: none;
 }
@@ -100,6 +99,7 @@ li{
 .first{
     position: absolute;
     width: 100%;
+    margin-top: -8px;
     z-index: 1;
     margin-left: -24px;
     filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25)); 
@@ -121,13 +121,10 @@ li{
         padding-left: 0;
     }
 }
-/* Mainpage */
-/* Video image */
 .image{
     width: 100%;
     height: auto;
 }
-/* About sparkleheart */
 .text{
     width: 100%;
     align-content: center;
@@ -150,7 +147,6 @@ li{
         width: 60%;
     }
 }
-/* Image collage related, phone and computer versions */
 .imagess{
     height: 50%;
 }
@@ -303,7 +299,6 @@ li{
     -moz-appearance: none;
     appearance: none;
 }
-/* Adjustment elements */
 .px-4{
     margin-left: 62px;
     margin-right: 24px;
@@ -354,7 +349,6 @@ p{
     margin-top: 0;
     margin-bottom: -1rem;
 }
-/* Fulfill your dreams buttons */
 .dream{
     align-content: center;
     align-items: center;
@@ -388,7 +382,6 @@ p{
 .custom-button:active{
     background-color: #ff8a00;
 }
-/* Contact us form */
 .title-margin{
     margin: 60px;
 }
@@ -532,7 +525,6 @@ p{
     line-height: 29px;
     margin-bottom: 50px;
 }
-/* Sponsors/Supporter section */
 .box3{
     padding: 100px  0 0 0;
 }
@@ -578,7 +570,6 @@ p{
         margin:0 20px 0 10px;
     }
 }
-/* Main footer */
 .footer-header{
     font-family: Montserrat;
     font-style: normal;
@@ -723,8 +714,6 @@ p{
         height: 162px;
     }
 }
-/* Combination of both Footers  
-(footer1 = sponsors/supporter footer, footer2 = main footer) */
 .footer1{
     background-image: url("../img/footer1.png");
     width: 100%;
@@ -851,7 +840,6 @@ p{
         line-height: 13px;
     }
 }
-/* Ideja page */
 .carousell{
     text-decoration: none;
 }
@@ -1170,7 +1158,6 @@ p{
         margin-left: 0px;
     }
 }
-/* Piesaki sapni */
 .dreams{
     margin: 120px auto 0 auto;
     width: 818px;
@@ -1312,7 +1299,6 @@ p{
         height: 65px;
     }
 }
-/* Uzņēmējiem */
 .title-text2{
     font-family: Montserrat;
     font-style: normal;

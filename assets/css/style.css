@@ -218,6 +218,7 @@ li{
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
+        height: auto;
         width: 50%;
     }
     .lauma{

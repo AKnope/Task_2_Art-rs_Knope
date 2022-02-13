@@ -96,9 +96,14 @@ function show(){
   var tag = document.getElementById('tag');
   var more = document.getElementById('more');
   var less = document.getElementById('less');
-  var displayshow = tag.style.display;
 
-  if(displayshow == "none"){
+
+  if(tag.style.display !== "none"){
+    tag.style.display = "block";
+    more.style.display= "none";
+    less.style.display= "block";
+  }
+  else if(tag.style.display == "none"){
     tag.style.display = "block";
     more.style.display= "none";
     less.style.display= "block";
@@ -109,7 +114,12 @@ function show(){
     less.style.display= "none";
   }
 }
+function show2(){
+  document.getElementById("tag").style.display= "none";
+  document.getElementById("more").style.display= "block";
+  document.getElementById("less").style.display= "none";
 
+}
 $(function () {
   "use strict";
   
